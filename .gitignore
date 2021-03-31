@@ -1,23 +1,29 @@
-# Compiled class file
-*.class
+Solos.GEN_STATIC_SITE = true;
 
-# Log file
-*.log
+genURI("/tags.html");
+genURI("/archives.html");
+genURI("/links.html");
+genURI("/categories.html");
+genURI("/index.html");
+genURI("/blog/info");
+genURI("/manifest.json");
+genURI("/rss.xml");
 
-# BlueJ files
-*.ctxt
+genArticles();
+genTags();
+genArchives();
+genCategories();
+genSkins();
+genJS();
+genImages();
+genPlugins();
+genFile("sw.js");
+genFile("robots.txt");
+genFile("CHANGE_LOGS.md");
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+Solos.GEN_STATIC_SITE = false;
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+作者：88250
+链接：https://ld246.com/article/1579053576274
+来源：链滴
+协议：CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
